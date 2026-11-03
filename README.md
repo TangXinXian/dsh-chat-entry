@@ -54,13 +54,13 @@
 
 ```sh
 # 网页版 / 任意命令行 dsh
-dsh plugin --profile web add github:<owner>/dsh-chat-entry
+dsh plugin --profile web add github:TangXinXian/dsh-chat-entry
 
 # DSH Desktop：profile 名为 desktop
-dsh plugin --profile desktop add github:<owner>/dsh-chat-entry
+dsh plugin --profile desktop add github:TangXinXian/dsh-chat-entry
 ```
 
-桌面端也可以走「设置 → 插件 → 安装」，把 `github:<owner>/dsh-chat-entry` 填进安装框。
+桌面端也可以走「设置 → 插件 → 安装」，把 `github:TangXinXian/dsh-chat-entry` 填进安装框。
 装完硬刷新页面（Ctrl+Shift+R）。
 
 > 本包没有构建步骤、没有运行时依赖，`github:` 源码安装即可直接用；不需要 `pnpm approve-builds`。
@@ -82,7 +82,7 @@ gh auth login                       # 只需一次
 pwsh -File scripts/publish.ps1      # 建仓（默认 public）+ 首次提交 + push
 ```
 
-脚本会打印安装地址与 `dsh plugin add github:<owner>/dsh-chat-entry` 命令。
+脚本会打印安装地址与 `dsh plugin add github:TangXinXian/dsh-chat-entry` 命令。
 已有仓库时它会复用并 push；要私有仓库加 `-Private`。
 手动操作等价于：`git init && git add -A && git commit`，然后
 `gh repo create dsh-chat-entry --public --source . --push`。

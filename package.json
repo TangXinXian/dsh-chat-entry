@@ -12,6 +12,14 @@
     "deepseek"
   ],
   "icon": "./deepseek.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TangXinXian/dsh-chat-entry.git"
+  },
+  "homepage": "https://github.com/TangXinXian/dsh-chat-entry#readme",
+  "bugs": {
+    "url": "https://github.com/TangXinXian/dsh-chat-entry/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
