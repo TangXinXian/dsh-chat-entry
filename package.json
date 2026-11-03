@@ -1,0 +1,41 @@
+{
+  "name": "dsh-chat-entry",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Two left-sidebar entries (DeepSeek chat and the DeepSeek platform) that open in the system default browser.",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek"
+  ],
+  "icon": "./deepseek.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./deepseek.svg",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "deepseek.svg",
+    "README.md",
+    "locale/*.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

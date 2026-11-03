@@ -1,0 +1,4 @@
+# dsh-chat-entry bundle patch: inserts the plugin into a profile's layer stack.
+- insert:
+    - id: dsh-chat-entry
+      name: 'dsh-chat-entry'

@@ -1,0 +1,4 @@
+# Normalise line endings in the repository; keep PowerShell scripts CRLF.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.svg text

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Web Entries",
+    "description": "Adds two entries to the left sidebar foot: Chat with DeepSeek (chat.deepseek.com) and DeepSeek Platform (platform.deepseek.com), each opened in the system default browser."
+  }
+}

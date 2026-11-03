@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek 网页入口",
+    "description": "在左侧侧边栏底部增加两个入口：和 DeepSeek 对话（chat.deepseek.com）与 DeepSeek 开放平台（platform.deepseek.com），点击即用系统默认浏览器打开。"
+  }
+}
